@@ -2,7 +2,7 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 url: http://adelrblog.github.io
-title: adelrblog
-tagline: A log of everyday life
-description: My awesome new site
+title: through the eyes of a linguist
+tagline: This is my daily blog
+description: adel rahimi's personal blog
 paginate: 5
