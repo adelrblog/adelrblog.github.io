@@ -7,4 +7,4 @@ So I was Thinking about <b>ToBI</b>'s weaknesses in showing several Phonetic fea
 
 The top book in my reading list is:
 <li>Gussenhoven, Carlos. The phonology of tone and intonation. Cambridge University Press, 2004.</li>
-![9780521012003.jpg](images/9780521012003.jpg)
+![9780521012003.jpg](http://blog.adelr.ir/images/9780521012003.jpg)
