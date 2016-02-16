@@ -1,6 +1,0 @@
----
-published: true
-title: Hola
-layout: post
----
-Hello world
