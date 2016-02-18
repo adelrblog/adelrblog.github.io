@@ -48,17 +48,12 @@ Z is the ``time frequency function`` on the scale from
 where Z from ``1.0 to 2.0`` is flagged as low
  ``2.0 to 3.0`` 
 flagged as medium and lastly ``3.0 to 4.0`` flagged as 
-
 high. F is the frequency in Hertz and it is scaled from
  ``75 to 300``
 . T is short for Time on FFT  frequency display. Both F and 
-
 T are indicators of the change in the pitch track and hence they 
-
 are calculated as: ``F2 - F1`` and ``T2 - T1 ``. T is always 
-
 positive bud F can sometimes be negative so I used Absolute value 
-
 in the formula to avoid F being zero.
 
  I have written a Python code that plots the distribution of the 
