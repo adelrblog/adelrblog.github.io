@@ -43,15 +43,15 @@ change. The formula is:
 
 ![formula](http://blog.adelr.ir/images/formula.JPG)
 
-Z is the ``time frequency function`` on the scale from ``1.0 to 
+Z is the ``time frequency function`` on the scale from 
+``1.0 to 4.0`` 
+where Z from ``1.0 to 2.0`` is flagged as low
+ ``2.0 to 3.0`` 
+flagged as medium and lastly ``3.0 to 4.0`` flagged as 
 
-4.0`` where Z from ``1.0 to 2.0`` is flagged as low ``2.0 to 
-
-3.0`` flagged as medium and lastly ``3.0 to 4.0`` flagged as 
-
-high. F is the frequency in Hertz and it is scaled from ``75 to 
-
-300``. T is short for Time on FFT  frequency display. Both F and 
+high. F is the frequency in Hertz and it is scaled from
+ ``75 to 300``
+. T is short for Time on FFT  frequency display. Both F and 
 
 T are indicators of the change in the pitch track and hence they 
 
