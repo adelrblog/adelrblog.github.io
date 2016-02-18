@@ -160,4 +160,4 @@ Calculating the above data we will get:
 
 ``Medium`` change so we transcribe it as: ``H+L;%``
 
-Edit Feb 16: On the second thought I observed that there are numerous problems with the ToBI and the AM so I'm thinking of changing the framework. I'll post later if I had another idea.
+Edit ``Feb 16``: On the second thought I observed that there are numerous problems with the ToBI and the AM so I'm thinking of changing the framework. I'll post later if I had another idea.
