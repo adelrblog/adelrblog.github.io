@@ -11,7 +11,7 @@ title: Archive
 
 {% for post in site.posts %}
 <div>
-  <span style="float: left;"><a href="{{ post.url }}">{{ post.title }}</span>
+  <span style="float: left;"><a href="{{ post.url }}">{{ post.title }}</span></a>
   <span style="float: right;">{{ post.date | date_to_string }}</span>
 </div>
 <div style="clear: both;"></div>?
