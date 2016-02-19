@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About | Lingulog
+title: About
 ---
 
 I'm a software developer based in London...
