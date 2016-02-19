@@ -10,7 +10,6 @@ title: Archive
 {% endfor %} -->
 
 {% for post in site.posts %}
-
 <div>
   <span style="float: left;"><a href="{{ post.url }}">{{ post.title }}</span>
   <span style="float: right;">{{ post.date | date_to_string }}</span>
