@@ -6,4 +6,5 @@ title: lingu
 tagline: log
 description: adel's personal blog on science, technology, arts, and linguistics
 paginate: 5
-google_analytics: UA-68526002-2
+google_analytics:
+	tracking_id: UA-68526002-2
