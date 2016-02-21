@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Recording tips for linguists
 layout: post
 ---
