@@ -3,7 +3,7 @@ published: true
 title: Recording tips for linguists
 layout: post
 ---
-This tutorial page is indented for Linguistics who are either doing field work or recording voice data for phonological analysis; however it can be used in other disciplines and other projects.
+This tutorial page is intented for Linguistics who are either doing field work or recording voice data for phonological analysis; however it can be used in other disciplines and other projects.
 
 First of all this tutorial is only personal experiences of the author and does not apply to any other situation or other people's experience. Secondly you can contact me if anything in this tutorial is either not correct, or did not work for you.
 
