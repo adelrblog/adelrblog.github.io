@@ -8,7 +8,7 @@ This tutorial page is indented for Linguistics who are either doing field work o
 First of all this tutorial is only personal experiences of the author and does not apply to any other situation or other people's experience. Secondly you can contact me if anything in this tutorial is either not correct, or did not work for you.
 
 
-
+![fig 1]{http://adelr.ir/~linguists/images/image001.jpg}
 Fig 1 spectral frequency display of my name, Image courtesy of: Adel Rahimi
 
 Okay, first things first: know what you are doing. Always think forward. I have seen a lot of people who said we'll record and analyze, it's an easy task but NO! It is not. Recording data is a tremendously hard task. You cannot predict what is going to happen. And sometimes you cannot even control it.
