@@ -1,6 +1,6 @@
 ---
 published: true
-title: Capturing Time Frequency Function pt. II
+title: Capturing Time Frequency Function pt II
 layout: post
 ---
 In the <a href="http://blog.adelr.ir/2016/02/03/time-frequency-function.html">previous post</a> I tried to introduce a function of duration and frequency. after some thoughts I decided to work on two fundamental questions:
