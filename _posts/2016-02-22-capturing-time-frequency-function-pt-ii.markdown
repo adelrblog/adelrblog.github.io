@@ -11,7 +11,9 @@ In the <a href="http://blog.adelr.ir/2016/02/03/time-frequency-function.html">pr
 
 **The Aim** of this scale and the whole transcription is to provide a hybrid model of intonation transcription which is suitable for both computational processing and human transcription (I will soon do a detailed analysis of existing intonational models),
 
-**The process** is rather tricky. In the beginning I would really wanted to work on the ToBI system. It's **fast**, it's ** easy to read** and finally it's **easy to implement**. The thing about ToBI is that it's not quite...you know...right. what I mean is that the ToBI system throws off a tremendous amount of prosodic data that we can't quite say we don't need.
+**The process** is rather tricky. In the beginning I would really wanted to work on the ToBI system. It's **fast**, it's 
+** easy to read** 
+and finally it's **easy to implement**. The thing about ToBI is that it's not quite...you know...right. what I mean is that the ToBI system throws off a tremendous amount of prosodic data that we can't quite say we don't need.
 
 The ``Time Frequency Function`` or in short TFF tries to compensate the ``duration`` loss and 
 ``frequency`` loss in ToBI. As I explained in the previous post we can use the mentioned formula to calculate 
