@@ -70,4 +70,4 @@ I will be doing a whole series of videos mainly focused on Noise Reduction soon.
 
 Further reading:
 
-Soon will be updated.
+* Kinsler, L.E., Frey, A.R., Coppens, A.B. and Sanders, J.V., 1999. Fundamentals of acoustics. Fundamentals of Acoustics, 4th Edition, by Lawrence E. Kinsler, Austin R. Frey, Alan B. Coppens, James V. Sanders, pp. 560. ISBN 0-471-84789-5. Wiley-VCH, December 1999., p.560.
