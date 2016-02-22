@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-I'm a linguist...
+All the phones in my name,adel [əˈdel], are voiced.
