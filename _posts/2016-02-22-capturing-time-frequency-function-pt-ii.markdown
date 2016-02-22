@@ -36,3 +36,8 @@ The second example is another Kurdish utterance transcribed:
 The last example is a comparison between ToBI and the proposed model:
 
 ![pic 1](http://blog.adelr.ir/images/praatkurdi5.JPG)
+
+``audio retrieved from: K-ToBI (Korean ToBI) Labelling Conventions, (version 3.1, in November 2000)
+Sun-Ah Jun
+Dept. of Linguistics , UCLA``
+<a href="http://www.linguistics.ucla.edu/people/jun/ktobi/k-tobi.html">http://www.linguistics.ucla.edu/people/jun/ktobi/k-tobi.html</a>
