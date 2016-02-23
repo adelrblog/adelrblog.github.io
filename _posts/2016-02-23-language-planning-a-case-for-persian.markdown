@@ -17,3 +17,7 @@ Take Hebrew for example a perfect instance of right to left script.
 Another claim that he made in the lecture was that ot would make writing Persian easier. One thing for sure is that having 4 /z/ and 3 /s/ correspondents in our writing system does not make it difficult. In fact its making our language easier! (Although learning Persian writing and spelling is rather hard specially for foreigners and L2 learners, but after getting used to it most learners will understand our vocabulary system)
 In fact one of the superiorities of Persian language is that, unlike Arabic, it does not need Diacritic (In French: Diacritique) 
 In the end the Persian language will benefit a little (close to none) in changing the writing system and it will ruin our language and our vocabulary vastly.
+
+PS. You can watch the lecture (in Persian) below:
+
+<iframe src="http://www.aparat.com/video/video/embed/videohash/hazwW/vt/frame" height="360" width="640" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" ></iframe>
