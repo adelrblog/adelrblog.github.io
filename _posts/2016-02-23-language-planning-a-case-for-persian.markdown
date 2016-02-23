@@ -1,6 +1,6 @@
 ---
 published: true
-title: Language Planning: A case for Persian
+title: Language Planning A case for Persian
 layout: post
 ---
 A few days ago I watched a lecture by Dr. Mohammadreza Bateni titled: language planning. In this video he proposed that we change the writing system of Persian from Arabic to Latin.
