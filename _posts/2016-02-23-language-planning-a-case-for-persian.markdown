@@ -6,7 +6,7 @@ layout: post
 A few days ago I watched a lecture by Dr. Mohammadreza Bateni titled: language planning. In this video he proposed that we change the writing system of Persian from Arabic to Latin.
 
 ![Persian Alphabet](http://blog.adelr.ir/images/persian-farsi-alphabet-writing-system.jpg)
-Image from: freelanguage.org
+<I>Image from: freelanguage.org</I>
 
 There were several issues that came to my mind regarding this proposal that I would like to mention:
 First of all Persian is a rich language in term of vocabulary. Most of Persian vocabularies come from Arabic roots and as you might know Arabic language has several Bons with which you can make up new words. Like... A Persian speaker would never understand a concept of bon and Persian word formation without knowing both Arabic grammar and Arabic script. To give more details the necessary tool is Arabic script and the sufficient knowledge is the knowledge of Arabic bon. Without knowing the Arabic written form we cannot say that Baten and Batn are from the same base.
