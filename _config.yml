@@ -4,9 +4,7 @@ markdown: kramdown
 url: http://adelrblog.github.io
 title: lingu
 tagline: log
-description: əˈdelz ˈpɝrːsənl̩ ˈblɑːɡ ɑːn ˈsaɪəns tekˈnɑːlɪdʒi ˈɑːrts ənd lɪŋˈɡwɪstɪks
+description: Lingu.log is adel's personal thoughts on science, technology, arts, and linguistics.
 paginate: 5
 google_analytics:
     tracking_id: UA-68526002-2
-github:
-    home: http://adelr.ir
