@@ -4,6 +4,7 @@ title: Transfer files to your devices with IIS
 layout: post
 ---
 IIS is a great web server from good guys at Microsoft. Since it's Microsoft technology it is natively supported in all the version of Microsoft windows. We're gonna use IIS as a web server for our home computer and use it to transfer files to other devices like iPad.
+
 Requirements: 
 
  - You must have Windows computers
