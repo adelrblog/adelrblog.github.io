@@ -1,9 +1,9 @@
 ---
 published: true
-title: Transfer files between you devices with IIS
+title: Transfer files to your devices with IIS
 layout: post
 ---
-IIS is a great web server from good guys at Microsoft. Since it's Microsoft technology it is natively supported in all the version of Microsotf windows. We're gonna use IIS as a web server for our home computer and use it to transfer files to other devices like iPad.
+IIS is a great web server from good guys at Microsoft. Since it's Microsoft technology it is natively supported in all the version of Microsoft windows. We're gonna use IIS as a web server for our home computer and use it to transfer files to other devices like iPad.
 Requirements: 
 
  - You must have Windows computers
@@ -16,13 +16,13 @@ Steps:
 
 **First Step: Activation**
 
-First (on some devices) you need to avctivate IIS in the Control Panel:
+First (on some devices) you need to activate IIS in the Control Panel:
 
 Go to `` Control Panel --> All Control Panel Items --> Programs and Features`` or simply copy the below address in your address bar: 
 
 ``Control Panel\All Control Panel Items\Programs and Features``
 
-Now Click on ``Turn Windwos Features On or Off`` and then check ``Internet Information Services``.
+Now Click on ``Turn Windows Features On or Off`` and then check ``Internet Information Services``.
 
 ![IIS](http://blog.adelr.ir/images/IIS.JPG)
 
@@ -40,4 +40,4 @@ Now, All you have to do is to know you computer's IP address in your local netwo
 
 ![IIS](http://blog.adelr.ir/images/IIS3.JPG)
 
-Now go to your inetpub folder and copy anything you want to transfer to you devices. enter the IP Address you had copied previously in your iPad, iPhone etc. and hit go.  
+Now go to your inetpub folder and copy anything you want to transfer to you devices. enter the IP Address you had copied previously in your iPad, iPhone etc. and hit go.
