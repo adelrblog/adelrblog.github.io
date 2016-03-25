@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=prof_hustler&api_key=2f796f77b5018ac3b9f0e10d308ef5f8&limit=2&format=json&callback=?", function(data) {
+    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=defsamm&api_key=5b801a66d1a34e73b6e563afc27ef06b&limit=2&format=json&callback=?", function(data) {
 
         var html = ''; // we declare the variable that we'll be using to store our information
         var counter = 1; // we declare a counter variable to use with the if statement in order to limit the result to 1
