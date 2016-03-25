@@ -8,3 +8,6 @@ description: Lingu.log is adel's personal thoughts on science, technology, arts,
 paginate: 5
 google_analytics:
     tracking_id: UA-68526002-2
+custom_js:
+- jquery.min
+- lstfm
