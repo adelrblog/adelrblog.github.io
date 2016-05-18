@@ -62,7 +62,7 @@ To conclude the probability of alien life form is really high. The probability o
 Or maybe their cognitive view is different. For instance humans tend to name things in similar classes similar names. For example <she-he> <Class-Classes> Who said that the plural form a noun should be the same as it's singular form?
 
 
-**Further Reading**
+**Further Reading:**
 
 * http://evolutionfaq.com/articles/probability-life
 
