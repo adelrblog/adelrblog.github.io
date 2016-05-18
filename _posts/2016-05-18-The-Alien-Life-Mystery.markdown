@@ -34,7 +34,11 @@ Humans have created a thing called language because this is our only way of comm
 
 **How about writing?**
 
-Writing is rather different. Writing was not necessary at first. You can talk and communicate easily. How about them? Well we use writing for two major reasons 1) speech fades quickly and we will forget 2) communication with later generations
+Writing is rather different. Writing was not necessary at first. You can talk and communicate easily. How about them? Well we use writing for two major reasons:
+
+1) speech fades quickly and we will forget
+
+ 2) communication with later generations
 
 Aliens might be good at remembering, they might be good at communicating with other generations as well. 
 
@@ -56,3 +60,22 @@ To conclude the probability of alien life form is really high. The probability o
 
 
 Or maybe their cognitive view is different. For instance humans tend to name things in similar classes similar names. For example <she-he> <Class-Classes> Who said that the plural form a noun should be the same as it's singular form?
+
+
+**Further Reading**
+
+* http://evolutionfaq.com/articles/probability-life
+
+* https://en.wikipedia.org/wiki/RNA_world
+
+* http://www.talkorigins.org/faqs/abioprob/abioprob.html#r10
+
+* phys.org/news/2015-10-big-universe.html
+
+* http://www.bioinf.manchester.ac.uk/dbbrowser/bioactivity/aacodefrm.html
+
+* Severin, K., Lee, D.H., Kennan, A.J. and Ghadiri, M.R., 1997. A synthetic peptide ligase. Nature, 389(6652), pp.706-709.
+
+* http://www.ncbi.nlm.nih.gov/pubmed/1936941
+
+* https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence
