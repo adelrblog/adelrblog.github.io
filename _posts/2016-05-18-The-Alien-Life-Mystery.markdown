@@ -49,7 +49,10 @@ Human languages differ in terms of word order. SOV (Subject, Object, Verb) langu
 To conclude the probability of alien life form is really high. The probability of intelligent life form is lower but still likely due to the fact that we are still not sure about the size of the universe! If they are intelligent and if they are living in a planet like us with atmosphere and gravity force of 9.8 m/s^2 chances are high that they will evolve to be sort of like us. Or will they? our physiological shape is constrained by a lot of factors and plus it's not at it's best. we're so weak. We even need shoes to walk but our Homo ancestors can walk and wander easily. There was a really complex process that led to humans in this form. We can say probably if the place aliens live is similar to us they might incorporate our tools in language. Using writing, using double articulation etc. but it might differ in some senses. For example our perception of sun might be different from theirs. They might even have two moons and therefore invent two words. OR dualism might not work on their side. They may have 3 genders. Well not in the sense that we are thinking for example during evolution there may be a group of Hominids still living and have incorporated language but only their males lived because they were the only gender who were physically tough. So an imaginary language would be:
 
 /bvav/ = He
+
 /bv/ = She
-/bvai = It
+
+/bvai/ = It
+
 
 or maybe their cognitive view is different. For instance humans tend to name things in similar classes similar names. For example <she-he> <Class-Classes> Who said that the plural form a noun should be the same as it's singular form?
