@@ -11,3 +11,4 @@ defining your theme in IDLE is easy as...well not that easy because in different
 after appending this code in the end of the config file you have to go to the `IDLE => Options => Configure IDLE => Highlighting` under Highlighting theme you can find the custom theme you have defined.
 
 Here is what it looks like:
+![idletheme](http://blog.adelr.ir/images/idletheme.png)
