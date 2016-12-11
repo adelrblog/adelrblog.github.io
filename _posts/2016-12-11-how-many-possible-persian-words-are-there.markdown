@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How many possible Persian words are there?
 layout: post
 ---
