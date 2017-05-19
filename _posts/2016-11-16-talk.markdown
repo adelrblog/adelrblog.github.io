@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Talk at NAEC2017
 layout: post
 ---
