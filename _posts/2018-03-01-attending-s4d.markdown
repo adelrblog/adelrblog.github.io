@@ -16,7 +16,8 @@ On the subject of ML optimizations:
 2. França, G., & Bento, J. ADMM and Random Walks on Graphs.
 3. https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
 4. https://arxiv.org/pdf/1712.07897.pdf
-5. 
+5. https://arxiv.org/pdf/1706.10207.pdf
+6. https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
 
 
 ----------
