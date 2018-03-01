@@ -27,3 +27,23 @@ On the subject of Probabilistic Modeling for ML:
 1. http://mlg.eng.cam.ac.uk/zoubin/talks/mit12csail.pdf
 2. 
 3. 
+
+
+----------
+
+
+On the subject of Theory of Statistical Inference:
+1. http://www.ltcc.ac.uk/media/london-taught-course-centre/documents/Fundamental-Theory-of-Statistical-Inference-notes.pdf
+
+
+----------
+
+
+On the subject of MM algorithms:
+1. https://www.stat.berkeley.edu/~aldous/Colloq/lange-talk.pdf
+2. https://arxiv.org/abs/1506.07613
+3. http://www.ece.ust.hk/~palomar/ELEC5470_lectures/11/slides_MM_algorithms.pdf
+
+
+----------
+
