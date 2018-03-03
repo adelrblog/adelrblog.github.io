@@ -43,6 +43,7 @@ On the subject of MM algorithms:
 1. https://www.stat.berkeley.edu/~aldous/Colloq/lange-talk.pdf
 2. https://arxiv.org/abs/1506.07613
 3. http://www.ece.ust.hk/~palomar/ELEC5470_lectures/11/slides_MM_algorithms.pdf
+4. https://www.stat.berkeley.edu/~aldous/Colloq/lange-talk.pdf
 
 
 ----------
