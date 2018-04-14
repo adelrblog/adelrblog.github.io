@@ -8,7 +8,7 @@ Colab uses VMs that connects to a Python Jupyter nootbook which provides you wit
 However, Using Google Colab is a bit tricky. First you have to create a Jupyter notebook in <a href='http://colab.research.google.com'>Colab.research.google.com</a>
 Now you have your Jupyter notebook. Go to ```edit -> notebook settings -> Hardware accelerator``` select GPU.
 
-![Alt text](Picture.png?raw=true "picture")
+![Alt text](https://raw.githubusercontent.com/adelrblog/adelrblog.github.io/master/images/gpu.png "picture")
 
 Google will provide you with Tesla K80 GPUs 
 
@@ -42,13 +42,15 @@ if device_name != '/device:GPU:0':
 	print('Found GPU at: {}'.format(device_name))
 ```
 
-to mount your drive folder into your VM: 
+To mount your drive folder into your VM: 
 ```
 !mkdir -p drive
 !google-drive-ocamlfuse drive -o nonempty
 ```
 remember ```-o nonempty``` is for the time you are mounting your data from a nonempty directory.
-to run a sample script enter:
+
+
+To run a sample script enter:
 
 ```
 !python main.py --data_path=drive/app/data/
