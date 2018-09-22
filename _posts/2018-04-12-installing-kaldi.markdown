@@ -85,4 +85,4 @@ and click on "The build process (how Kaldi is compiled)".
 ```
 
 
-Remember that if your IAM data was downloaded uncorrectly or your connection was not stable during the installation, remove all the data and download them from the beginning
+Remember that if your IAM data was downloaded incorrectly or your connection was not stable during the installation, remove all the data and download them from the beginning
