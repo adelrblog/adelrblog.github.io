@@ -1,0 +1,10 @@
+---
+published: false
+title: Glosbe Project and Kurmanji Corpus
+layout: post
+---
+**Intro on Glosbe Project**
+
+**Intro on Kurmanji Corpus**
+
+**Kurmanji Corpus was used in Glosbe Project**
