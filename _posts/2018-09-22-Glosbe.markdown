@@ -8,3 +8,4 @@ layout: post
 **Intro on Kurmanji Corpus**
 
 **Kurmanji Corpus was used in Glosbe Project**
+https://glosbe.com/source/101709
