@@ -3,6 +3,8 @@ published: true
 title: Using Google Colab
 layout: post
 ---
+Big update: Google is now giving free TPUs in Colab! Awesome!
+
 Google Colab is an awesome tool to use. It provides you with free GPUs for 12 hours. all this for FREE!
 Colab uses VMs that connects to a Python Jupyter nootbook which provides you with the command line to enter the commands.
 However, Using Google Colab is a bit tricky. First you have to create a Jupyter notebook in <a href='http://colab.research.google.com'>Colab.research.google.com</a>
