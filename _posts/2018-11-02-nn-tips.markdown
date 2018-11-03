@@ -21,3 +21,39 @@ Iter 0, Loss= nan, Training Accuracy= 0.06000
 Iter 0, Loss= nan, Training Accuracy= 0.15000
 Iter 0, Loss= nan, Training Accuracy= 0.13000
 ```
+
+**Data generator only returns same value**
+
+This might be the case that everytime you are calling the data generator you are calling the function itself:
+```
+def mygen():
+    for i in range(5):
+        yield i
+```
+
+Everytime you run ```next(mygen())``` you will see the first item generated. What you ahve to do is to put mygen() into a variable and then call that variable.
+```
+>def mygen():
+>    for i in range(5):
+>        yield i
+
+>gen = mygen()
+>next(gen)
+Out[16]: 0
+>next(gen)
+Out[17]: 1
+>next(gen)
+Out[18]: 2
+>next(gen)
+Out[19]: 3
+>next(gen)
+Out[20]: 4
+>next(gen)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2961, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-21-6e72e47198db>", line 1, in <module>
+    next(gen)
+StopIteration
+
+```
