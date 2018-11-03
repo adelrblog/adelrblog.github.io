@@ -1,0 +1,20 @@
+---
+published: True
+title: Tips on Developing Neural Networks
+layout: post
+---
+**Introduction**
+In this post I decided to put on some tips and tricks and some hotfixes that I encounter while developing Neural Networks projects. Most of these problems are easy to fix but a headache while working.
+**sparse_softmax_cross_entropy's loss is NaN, what's going on?**
+When sparse_softmax_cross_entropy's loss is nan or going up, you'd have to use a lower learning rate. This NaN is due to the fact that your loss is going really up.
+an example is shown below, CIFAR-10 dataset with CNN and 2 layer FC:
+```
+Iter 0, Loss= 22932.830078, Training Accuracy= 0.13000
+Iter 0, Loss= 5908024.500000, Training Accuracy= 0.12000
+Iter 0, Loss= 128835657728.000000, Training Accuracy= 0.18000
+Iter 0, Loss= 16028694803369689088.000000, Training Accuracy= 0.12000
+Iter 0, Loss= 392477918453616813397006876672.000000, Training Accuracy= 0.13000
+Iter 0, Loss= nan, Training Accuracy= 0.06000
+Iter 0, Loss= nan, Training Accuracy= 0.15000
+Iter 0, Loss= nan, Training Accuracy= 0.13000
+```
