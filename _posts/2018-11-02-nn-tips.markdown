@@ -1,11 +1,11 @@
 ---
 published: True
-title: Tips on Developing Neural Networks
+title: Common Python/Machine Learning problems
 layout: post
 ---
 **Introduction**
 
-In this post I decided to put on some tips and tricks and some hotfixes that I encounter while developing Neural Networks projects. Most of these problems are easy to fix but a headache while working.
+In this post I decided to put on some tips and tricks and some hotfixes that I encounter while developing Neural Networks/Machine Learning projects. Most of these problems are easy to fix but a headache while working!
 
 **sparse_softmax_cross_entropy's loss is NaN, what's going on?**
 
