@@ -4,8 +4,11 @@ title: Tips on Developing Neural Networks
 layout: post
 ---
 **Introduction**
+
 In this post I decided to put on some tips and tricks and some hotfixes that I encounter while developing Neural Networks projects. Most of these problems are easy to fix but a headache while working.
+
 **sparse_softmax_cross_entropy's loss is NaN, what's going on?**
+
 When sparse_softmax_cross_entropy's loss is nan or going up, you'd have to use a lower learning rate. This NaN is due to the fact that your loss is going really up.
 an example is shown below, CIFAR-10 dataset with CNN and 2 layer FC:
 ```
