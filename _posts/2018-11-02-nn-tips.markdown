@@ -31,7 +31,7 @@ def mygen():
         yield i
 ```
 
-Everytime you run ```next(mygen())``` you will see the first item generated. What you ahve to do is to put mygen() into a variable and then call that variable.
+Everytime you run ```next(mygen())``` you will see the first item generated. What you have to do is to put mygen() into a variable and then call that variable.
 ```
 >def mygen():
 >    for i in range(5):
