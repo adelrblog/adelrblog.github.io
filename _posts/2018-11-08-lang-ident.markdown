@@ -22,7 +22,12 @@ from langdetect import detect
 
 The results from the language detector for Craigslist extracted dataset comes as below:
 
- ```
+```
 {'fr': 155, 'en': 5179, 'no': 65, 'et': 28, 'id': 52, 'af': 71, 'de': 321, 'da': 73, 'vi': 53, 'ca': 99, 'nl': 91, 'tl': 44, 'sv': 32, 'it': 118, 'so': 43, 'sl': 6, 'hu': 25, 'pt': 47, 'cy': 32, 'hr': 3, 'es': 67, 'sw': 7, 'ro': 64, 'fi': 6, 'pl': 19, 'tr': 17, 'lt': 9, 'lv': 8, 'sq': 5, 'zh-cn': 12, 'cs': 2, 'sk': 6}
 ```
- 
+
+
+Github gist:
+
+
+<script src="https://gist.github.com/adelra/7c5627055c3e69913d19f63456232db0.js"></script>
