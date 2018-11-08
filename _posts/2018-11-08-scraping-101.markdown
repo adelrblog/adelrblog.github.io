@@ -1,0 +1,55 @@
+---
+published: True
+title: Scraping 101
+layout: post
+---
+  ## Writing a Crawler and extracting data 
+  In this post we will go through basics of scraping a website and getting data from it. This library uses either a crawl spider to go through pages in a website or given a list of web addresses crawls the web pages. Scrapy supports both xpath and CSS selectors which means using a simple css/xpath selector we can capture required data from the webpage. *Instructions on using scrapy* 
+
+The basic idea is to start with generating a spider using ```scrapy genspider mydomain mydomain.com``` Then we will import ```from scrapy.spiders import CrawlSpider, Rule``` where the former is our base crawler used in scrapy and the latter is our ruling system. We will talk about that later. Then we will define our items. Items are basically parts of a website we would want to crawl. For instance, we want to extract contact names, phone numbers, and addresses from a website we then have to:
+
+```
+class CrawlerName(scrapy.Item):
+name = scrapy.Field()
+phone = scrapy.Field()
+address = scrapy.Field()
+```
+       
+ We will then create empty files to write out our output. In cases where there is a pipeline for our data, for instance, scrapy crawler is called by another shell, we can write out the data in ```std.out()```. 
+  
+  
+> As it has been written in the Wikipedia's website, not to crawl
+> wikipedia even for good and/or testing purposes, I will limit the
+> start URL to a small number of pages.
+  
+  We then have to include allowed URLs in a list to tell scrapy about the URLs and domains we want to crawl. The last step is to pass each item to a css/xpath selector. I personally would rather use regex to clean the data before serializing it on disk. For instance:
+ 
+```
+item["phone"] = re.sub(r"[a-zA-Z<>\\\"=/:-%!_]*","","".join(response.css(r".EFBIF").extract()).encode('utf-8'))
+``` 
+
+The regular expression for ```[a-zA-Z<>\\\"=/:0-9-%!_]*``` essentially removes most characters but the numbers. A quick guide for the regex is given below: 
+
+- a-z: letters a until z in lowercase format
+- A-Z: letters a until z in lowercase format
+- 0-9: digits 0-9
+- *: repitition
+- []: a series
+
+Now the ideal way to remove HTML tags from our crawled web pages would be ```<[^>]*>```. 
+Also in the example above the ```re.sub``` method takes two arguments. Basically, the first one is "What to find?", the second one is "What to replace it with?", and the third one is "Where to look for?". As a sidenote, the ```r``` before the regex string tells python to handle it as raw string. In the end, we will either write out our data ``` fp.write() ``` or return it from our function ```return data_from_crawler```. 
+To run the crawler you'd have to point to the folder ```/⁨a⁩/⁨scrapy⁩/⁨dataset⁩/dataset⁩``` and into the command line enter ```scrapy crawl general``` or the specific crawler. I have prepared two crawlers one is for Craigslist and the other one is for Wikipedia. You can run either of them.
+ 
+ Or else I have put a simple bash file to do the addressing and running of the file. You can easily run ```easy-run.sh``` to run the Wikipedia crawler. 
+ 
+ ## Regex for Extracting phone numbers 
+ *Craigslist dataset is used*
+  
+  For this part, I have prepared a function that gets an input of a text file on disk and prints out all the phone numbers inside the file. The regex for finding phone numbers is ```[+|00| ][0-9.*_-]{10,}``` 
+
+The sample output of extracting phone numbers from Craiglist is given below:
+
+```
+Number of phone numbers collected: 126
+list of phone numbers: [' 0060164791359', ' 555-555-1234', ' 540-999-8042', ' 800-220-1177', '02-276-9019', ' 240-505-8508', ' 410-268-6627', ' 703-761-6161', ' 443-736-0907', ' 443-736-0907', ' 443-736-0907', ' 703-577-8070', ' 540-718-5696', '0-423-2114***', ' 904-248-0055', ' 407-252-5605', '00-476-1360***', '07-900-7736', ' 407-319-9973.', ' 407-319-9973', ' 912-389-2792', ' 478-308-1559', ' 407.283.5296', ' 813.728.6120', ' 813.728.6120', ' 727-264-6560', '+91-9620111613', '02-345-5435', ' 601-549-1224', ' 479-616-2034', ' 601-549-1224', ' 479-616-2034', ' 601-549-1224', ' 601-549-1224', ' 479-616-2034', ' 601-549-1224', ' 479-616-2034', ' 601-549-1224', ' 479-616-2034', ' 601-549-1224', ' 601-549-1224', ' 479-616-2034', ' 479-402-6755', ' 479-616-2034', ' 479-402-6755', ' 479-616-2034', ' 479-402-6755', ' 479-402-6755', ' 479-616-2034', ' 479-402-6755', ' 479-616-2034', ' 479-402-6755', ' 479-616-2034', ' 479-402-6755', ' 479-402-6755', ' 479-616-2034', ' 203-685-0346', ' 203-685-0346', ' 850-970-00', ' 6782789774', ' 6782789774', ' 706-499-4849', ' 912-257-3683', ' 4046717775', ' 6782789774', ' 6782789774', ' 850-543-1914', ' 850-543-1914', ' 1-800-273-6103', ' 1-800-273-6103', ' 1-800-273-6103', ' 504-559-6612', '0062-70065-70121-70123-70001-70002-70003-70005-70006-', '0112.70113.70114.70115.70116.70117.', '0118.70119.70112.70122.70124.70125.', '0126.70130.', ' ------------', ' ************', ' 25-626-1637.', ' 10000-20000', ' 11-2-18.105', ' ..........', ' 856-776-31-5', ' 609-829-8873', ' 1-800-505-5423', ' 1-800-505-5423', ' 1-800-505-5423', ' 1-800-505-5423', ' 8562137860', ' 609-790-9582', ' 1-800-505-5423', ' 1-800-505-5423', ' 1-800-505-5423', ' 1-800-505-5423', ' 215-800-7515', ' 856-881-3663', ' 760-729-1877', ' 216-703-4719', ' 216-534-7017', ' 619-233-8300', ' 916-448-6715', ' 888-888-7122', ' 888-888-7122', ' 888-888-7122', ' 760-729-1877', ' 1-866-435-0844', ' 1-866-435-0844', ' 760-230-6635', ' 818-207-5290', ' 951-742-9079.', ' 951-742-9079', ' 951-742-9079.', ' 951-742-9079.', ' 310-704-6446', ' 323-677-5102', ' 323-677-5102', '00-920-0016', ' 818-207-5290', ' 818-207-5290', ' ________________________________________________________________', '09-938-1212', ' 951-320-1390', ' 951-320-1390', ' 1-866-879-2829', ' 213-399-6303', ' 323-220-6248']
+```
