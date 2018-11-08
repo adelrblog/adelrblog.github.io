@@ -4,6 +4,7 @@ title: Scraping 101
 layout: post
 ---
   ## Writing a Crawler and extracting data 
+  
   In this post we will go through basics of scraping a website and getting data from it. This library uses either a crawl spider to go through pages in a website or given a list of web addresses crawls the web pages. Scrapy supports both xpath and CSS selectors which means using a simple css/xpath selector we can capture required data from the webpage. *Instructions on using scrapy* 
 
 The basic idea is to start with generating a spider using ```scrapy genspider mydomain mydomain.com``` Then we will import ```from scrapy.spiders import CrawlSpider, Rule``` where the former is our base crawler used in scrapy and the latter is our ruling system. We will talk about that later. Then we will define our items. Items are basically parts of a website we would want to crawl. For instance, we want to extract contact names, phone numbers, and addresses from a website we then have to:
