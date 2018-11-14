@@ -57,3 +57,9 @@ Traceback (most recent call last):
 StopIteration
 
 ```
+
+**Keras output layer shape error**
+
+Error when checking model target: expected <output layer> to have shape (None, 10) but got array with shape (<SomeNumber>, 1) #3109
+
+This error most times is due to the fact that the output layer expects data to be categorical one-hot vectors. For instance use: ```Keras.utils.np_utils.to_categorical```
