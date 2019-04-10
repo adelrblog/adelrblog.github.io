@@ -68,3 +68,10 @@ This error most times is due to the fact that the output layer expects data to b
 **Regularization in RNNs**
 
 Using regularization in RNNs is not that common and mostly you'll get worse results (according to Andrej Karpathy in cs231n)
+
+**Keras fit_generator**
+
+It always accepts a tuple:
+
+* a tuple (inputs, labels)
+* a tuple (inputs, labels, sample_weights).
